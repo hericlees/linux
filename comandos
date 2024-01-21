@@ -1,3 +1,45 @@
+# Dicas úteis para o aprendizado.
+
+1. Digite qualquer comando seguido de “–help” (Dois traços e a palavra help) para ver a uma descrição 
+detalhada do comando. 
+(EX: “wget –help”)
+
+2. Outra forma de conseguir documentação oficial dos comandos Linux é o comando man (manual), 
+Digite man seguido do nome do comando que você precisa de informação.
+(EX: man wget)
+
+# Como eu saio daqui? Com ‘q’ eu saio aqui.
+
+
+#Atalhos globais.
+
+Ctrl+C cancela o comando atual em funcionamento
+Ctrl+Z para o comando atual, retorna com fg em primeiro plano Linux ou bg em segundo plano
+Ctrl+D faz logout da sessão atual; similar ao comando exit
+Ctrl+W apaga uma palavra na linha atual
+Ctrl+U apaga a linha inteira
+Ctrl+R tecle para mostrar um comando recente
+Ctrl+L limpa a tela do terminal; similar ao comando clear
+
+
+#Lista de comandos.
+
+# O ‘pwd’ vai mostrar aonde estamos
+
 pwd
 
-O ‘pwd’ vai mostrar aonde estamos
+# O ls é usado para listar arquivos ou diretórios dentro de outros diretórios
+
+ls
+
+# Lista de diretórios com exibição de arquivos ocultos.
+
+ls -a
+
+# O ‘l’ usamos para esse long list aqui, ele dá um detalhamento
+
+ls -al
+
+
+
+
