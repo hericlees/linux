@@ -24,6 +24,9 @@ Ctrl+L limpa a tela do terminal; similar ao comando clear
 
 #Lista de comandos.
 
+
+1. Arquivos e diretórios
+
 # O ‘pwd’ vai mostrar aonde estamos
 
 pwd
@@ -40,6 +43,23 @@ ls -a
 
 ls -al
 
+# Muda para o diretório /home (arquivos pessoais)
 
+cd
 
+# Muda do diretório atual para o especificado (substituir a variável dir pelo nome da pasta)
+
+cd /dir
+
+# Volta um nível
+
+cd ..
+
+# Volta 2 níveis
+
+cd ../..
+
+# Volta () para o diretório anterior
+
+cd –
 
