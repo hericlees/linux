@@ -59,6 +59,10 @@ cd ..
 
 cd ../..
 
+# Volta 3 níveis (só acrescentar a ../ para voltar mais niveis)
+
+cd ../../.. 
+
 # Volta () para o diretório anterior
 
 cd –
