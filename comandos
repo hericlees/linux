@@ -63,3 +63,27 @@ cd ../..
 
 cd –
 
+# Cria um diretório especificado (substituir a variável dir pelo nome da pasta)
+
+mkdir dir
+
+# Cria uma árvore de diretório
+
+mkdir -p /dir1/dir2/dir3
+
+# Força o uso do espaço nos nomes
+
+mkdir diretorio\ 1
+
+# Exclui a pasta chamada ‘dir1'
+
+rmdir dir1
+
+# Exclui o arquivo chamado ‘dir1’
+
+rm -r dir1
+
+# Exclui uma pasta chamada ‘dir1’ com seu conteúdo forçadamente. (Se excluí todo o seu conteúdo)
+
+rm -rf dir1
+
