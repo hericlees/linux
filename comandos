@@ -91,3 +91,18 @@ rm -r dir1
 
 rm -rf dir1
 
+# Copia o “diretório1” para o “diretório2”; cria o “diretório2” caso não exista (substituir a variável dir pelo 
+nome do diretório)
+
+cp -r dir1 dir2
+
+# A partir do dir1 todo o conteúdo, daqui em diante será despejado para o meu ‘dir2’
+
+cp -r dir1/* dir2
+
+# Dupla função: Pode ser usado para renomear ou mover o “dir1” para “dir2”. Se o dir2 for 
+um diretório existente, move “dir1” para dentro do diretório “dir2” (substituir a variável dir
+pelo nome do diretório)
+
+mv dir1 dir2
+
