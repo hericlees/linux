@@ -22,7 +22,7 @@ Ctrl+R tecle para mostrar um comando recente
 Ctrl+L limpa a tela do terminal; similar ao comando clear
 
 
-#Lista de comandos.
+#Lista de comandos:
 
 
 1. Arquivos e diretórios
@@ -31,17 +31,29 @@ Ctrl+L limpa a tela do terminal; similar ao comando clear
 
 pwd
 
+# O "touch" cria um arquivo
+
+touch
+
+# O ".touch" cria um arquivo oculto
+
+.touch
+
 # O ls é usado para listar arquivos ou diretórios dentro de outros diretórios
 
 ls
 
-# Lista de diretórios com exibição de arquivos ocultos.
+# Lista de diretórios com exibição de arquivos ocultos
 
 ls -a
 
 # O ‘l’ usamos para esse long list aqui, ele dá um detalhamento
 
 ls -al
+
+# Lista de diretórios ocultos e não ocultos
+
+ls -lrt
 
 # Muda para o diretório /home (arquivos pessoais)
 
