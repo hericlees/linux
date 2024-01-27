@@ -8,7 +8,7 @@ detalhada do comando.
 Digite man seguido do nome do comando que você precisa de informação.
 (EX: man wget)
 
-# Como eu saio daqui? Com ‘q’ eu saio aqui.
+Como eu saio daqui? Com ‘q’ eu saio aqui.
 
 
 #Atalhos globais.
@@ -117,4 +117,15 @@ um diretório existente, move “dir1” para dentro do diretório “dir2” (s
 pelo nome do diretório)
 
 mv dir1 dir2
+
+# Globbing é uma operação que combina caracteres coringas com partes de nomes de arquivos para a formação de todas as combinações possíveis desses nomes de arquivos.
+Lista todos os arquivos que começam com ‘arq’
+
+ls arq *
+
+# Lista todos os arquivos que começam com ‘arq1’ e mais alguma coisa depois 1
+
+ls arq1?
+
+
 
