@@ -1,3 +1,4 @@
+******************************************************************************************************************************************************************************
 # Dicas úteis para o aprendizado.
 
 1. Digite qualquer comando seguido de “–help” (Dois traços e a palavra help) para ver a uma descrição 
@@ -20,7 +21,7 @@ Ctrl+W apaga uma palavra na linha atual
 Ctrl+U apaga a linha inteira
 Ctrl+R tecle para mostrar um comando recente
 Ctrl+L limpa a tela do terminal; similar ao comando clear
-
+******************************************************************************************************************************************************************************
 
 #Lista de comandos:
 
@@ -148,6 +149,10 @@ ls *[1-5]
 # Listar todos os arquivos que começam com ‘arq’ de 1 a 5
 
 ls arq [1,5]
+
+# Listar todos os arquivos que começam com ‘arq’ ou 'Arq' que vão de 1 a 5
+
+ls [A,a]arq[1-5]
 
 
 
