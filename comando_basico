@@ -118,14 +118,26 @@ pelo nome do diretório)
 
 mv dir1 dir2
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Globbing é uma operação que combina caracteres coringas com partes de nomes de arquivos para a formação de todas as combinações possíveis desses nomes de arquivos.
-Lista todos os arquivos que começam com ‘arq’
+
+São caracteres coringas o asterisco (*) e a interrogação (?) (não entre colchetes), sendo chamados de Wildcards, e tem o seguinte comportamento:
+
+Interrogação (?) - Substitui um único caractere dentro de uma cadeia de caracteres.
+Asterisco (*) - Significa qualquer cadeia de caracteres, inclusive vazia.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Listar todos os arquivos que começam com ‘arq’
 
 ls arq *
 
-# Lista todos os arquivos que começam com ‘arq1’ e mais alguma coisa depois 1
+# Listar todos os arquivos que começam com ‘arq1’ e mais alguma coisa depois 1
 
 ls arq1?
+
+
 
 
 
