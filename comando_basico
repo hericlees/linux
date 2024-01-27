@@ -137,6 +137,19 @@ ls arq *
 
 ls arq1?
 
+# Listar todos os arquivos que tenham 3 caracteres que vão de 1 a 5.
+
+ls ???[1-5]
+
+# Listar todos os arquivos que tenham numeros  de 1 a 5
+
+ls *[1-5]
+
+# Listar todos os arquivos que começam com ‘arq’ de 1 a 5
+
+ls arq [1,5]
+
+
 
 
 
