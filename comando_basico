@@ -109,6 +109,10 @@ nome do diretório)
 
 cp -r dir1 dir2
 
+# Copia para o diretório corrente (atual) 
+
+cp /etc/services .
+
 # A partir do dir1 todo o conteúdo, daqui em diante será despejado para o meu ‘dir2’
 
 cp -r dir1/* dir2
@@ -153,6 +157,11 @@ ls arq [1,5]
 # Listar todos os arquivos que começam com ‘arq’ ou 'Arq' que vão de 1 a 5
 
 ls [A,a]arq[1-5]
+
+# Exibe o conteúdo de um arquivo ou diretório
+
+cat
+
 
 
 
