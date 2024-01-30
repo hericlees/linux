@@ -162,6 +162,18 @@ ls arq [1,5]
 
 ls [A,a]arq[1-5]
 
+# Filtrar dados no arquivo (grep)
+
+grep http services
+
+#  Ignorar o case da letra, se é maiúscula ou minúscula
+
+grep -i http services
+
+# Procurar em todo o seu conteúdo
+
+grep -l ricardo *
+
 
 
 
