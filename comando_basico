@@ -44,6 +44,26 @@ touch
 
 cat
 
+# Faz a paginação do arquivo (via enter)
+
+more Ex: more services
+
+# Faz a paginação do arquivo (via setas)
+
+less Ex: less services
+
+# Mostra o final do arquivo (default: ultimas 10 linhas)
+
+tail Ex: tail /etc/passwd
+
+# Mostra o inicio do arquivo (default: primeiras 10 linhas)
+
+head EX: head /etc/passwd
+
+# Filtrar a quantidade de linhas que você quer
+
+tail -n ou head -n e o path
+
 # O ls é usado para listar arquivos ou diretórios dentro de outros diretórios
 
 ls
@@ -182,9 +202,10 @@ grep -L ricardo *
 
 grep -r HTTP services
 
-# Mostra todos os arquivos que possuem o item buscado
+# Mostra todos os arquivos que possuem o item (HTTP) buscado
 
 grep -r HTTP *
+
 
 
 
