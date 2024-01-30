@@ -40,6 +40,10 @@ touch
 
 .touch
 
+# Exibe o conteúdo de um arquivo ou diretório
+
+cat
+
 # O ls é usado para listar arquivos ou diretórios dentro de outros diretórios
 
 ls
@@ -158,9 +162,6 @@ ls arq [1,5]
 
 ls [A,a]arq[1-5]
 
-# Exibe o conteúdo de um arquivo ou diretório
-
-cat
 
 
 
