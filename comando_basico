@@ -174,7 +174,9 @@ grep -i http services
 
 grep -l ricardo *
 
+# Retorna os diretórios ou arquivos que não cotem o item quee buscamos
 
+grep -L ricardo *
 
 
 
