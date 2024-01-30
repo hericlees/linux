@@ -178,7 +178,13 @@ grep -l ricardo *
 
 grep -L ricardo *
 
+# Usa a recursividade para mostrar o arquivo que há dentro do diretório
 
+grep -r HTTP services
+
+# Mostra todos os arquivos que possuem o item buscado
+
+grep -r HTTP *
 
 
 
