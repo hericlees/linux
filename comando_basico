@@ -206,6 +206,15 @@ grep -r HTTP services
 
 grep -r HTTP *
 
+# Mostra a palavra buscada no arquivo
+
+grep 'palavra' file.txt
+
+# Mostra a palavra buscada no arquivo através do pipe |
+
+cat file.txt | grep 'palavra'
+
+
 
 
 
