@@ -214,6 +214,17 @@ grep 'palavra' file.txt
 
 cat file.txt | grep 'palavra'
 
+# Procura no sistema o que se busca
+
+find / -name *.conf --> / = raiz/root 
+
+# Busca com autorização de root
+
+sudo find / -name *.conf
+
+# Filtra todos os sub-diretórios do diretório principal
+
+sudo find /etc -maxdepth 2 -name *.conf
 
 
 
