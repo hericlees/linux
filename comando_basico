@@ -274,3 +274,13 @@ cat listagem.txt | sort > listagem2.txt
 # Joga o output para um arquivo e não para a tela
 
 tail -n 5 syslog | grep systemd > ~/labs/redirecionamento/log5.txt
+
+#  filtrarmos a saída (output) e organizarmos melhor a informação para trabalharmos. " " significa espaço e d é o delimitador -f significa os espaços
+
+cat logs | cut -d “ “ -f6-
+
+# Joga o output para um arquivo e não para a tela
+
+cat logs | cut -d “ “ -f6- > logs1.txt
+
+
