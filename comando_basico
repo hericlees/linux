@@ -262,3 +262,15 @@ cat /etc/passwd | grep ricardo
 # Joga o output para um arquivo e não para a tela
 
 cat /etc/passwd | grep ricardo > listagem_usuarios
+
+# Ordena o arquivo e coloca-o em ordem alfabética
+
+cat listagem.txt | sort
+
+# Joga o output para um arquivo e não para a tela
+
+cat listagem.txt | sort > listagem2.txt
+
+# Joga o output para um arquivo e não para a tela
+
+tail -n 5 syslog | grep systemd > ~/labs/redirecionamento/log5.txt
