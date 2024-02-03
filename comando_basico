@@ -226,6 +226,21 @@ sudo find / -name *.conf
 
 sudo find /etc -maxdepth 2 -name *.conf
 
+# Em um diretório faz a procura a partir do ponto, ou seja, daqui em diante. O que é esse -amin? Especifica o tempo, minutos
+
+find . -amin -5
+
+# Em um diretório faz a procura a partir do ponto, ou seja, daqui em diante. O que é esse -amin? Especifica o tempo, dias
+
+find . -atime -2
+
+# Localiza arquivos por tamanho
+
+sudo find / -size +100M
+
+#  ignorar o case da letra
+
+sudo find / -iname *.conf
 
 
 
