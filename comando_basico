@@ -238,10 +238,27 @@ find . -atime -2
 
 sudo find / -size +100M
 
-#  ignorar o case da letra
+#  Ignorar o case da letra
 
 sudo find / -iname *.conf
 
+# Joga o output para um arquivo e não para a tela
 
+grep ssh services > listagem.txt
 
+# Para não sobrescrever um arquivo existente
 
+grep ssh services >> listagem.txt
+
+----------------------------------------------------------------------------------------------------------------
+
+O pipe vai servir para redirecionar, ele pega a saída de um comando e a redirecionada para um segundo comando
+
+-----------------------------------------------------------------------------------------------------------------
+# Ele busca o nome Ricardo no arquivo passwd
+
+cat /etc/passwd | grep ricardo
+
+# Joga o output para um arquivo e não para a tela
+
+cat /etc/passwd | grep ricardo > listagem_usuarios
