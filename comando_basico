@@ -310,3 +310,23 @@ egrep “^computer$” american-english
 # Extrai só as palavras buscadas
 
 cat american-english | grep -iE “^smartphone$|^computer$”
+
+# Primeiro caractere dela na busca pode variar (Em vez de usarmos a interrogação, usamos o ponto, egrep “^.)
+
+egrep “^.oot” american-english
+
+# Primeiro caractere dela na busca pode variar, mas terminar em oot
+
+egrep “^.oot$” american-english
+
+# Em vez de terminar com oot, pode ter mais dois caracteres
+
+egrep “^.oot..” american-english
+
+# Especifica o inicio da letra da palavra buscada
+
+egrep “^[flmr].oot” american-english ou egrep “^[l-n].oot” american-english (busca do l até o n)
+
+
+
+
