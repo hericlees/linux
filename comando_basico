@@ -283,4 +283,14 @@ cat logs | cut -d “ “ -f6-
 
 cat logs | cut -d “ “ -f6- > logs1.txt
 
+# Extrai só a palvra que inicia com computer
 
+cat american-english | grep -E “^computer”
+
+# Extrai só a palvra que termina com computer
+
+cat american-english | grep -E “computer$”
+
+# Extrai só a palavra buscada
+
+cat american-english | grep -E “^computer$”
