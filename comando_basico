@@ -44,6 +44,10 @@ touch
 
 cat
 
+# Adiciona a palavra Computer no arquivo american-english
+
+echo “COMPUTER” >> american-english
+
 # Faz a paginação do arquivo (via enter)
 
 more Ex: more services
@@ -294,3 +298,7 @@ cat american-english | grep -E “computer$”
 # Extrai só a palavra buscada
 
 cat american-english | grep -E “^computer$”
+
+# Extrai só a palavra buscada ignorando o case
+
+cat american-english | grep -iE “^computer$”
