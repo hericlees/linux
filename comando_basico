@@ -242,6 +242,10 @@ find . -atime -2
 
 sudo find / -size +100M
 
+# Localiza quaisquer arquivos que possuem o nome passwd
+
+find /etc -iname "*passwd*"
+
 #  Ignorar o case da letra
 
 sudo find / -iname *.conf
