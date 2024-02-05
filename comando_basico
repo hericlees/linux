@@ -302,3 +302,11 @@ cat american-english | grep -E “^computer$”
 # Extrai só a palavra buscada ignorando o case
 
 cat american-english | grep -iE “^computer$”
+
+# Extrai só a palvra que inicia com computer (O egrep é o atalho para o grep -E)
+
+egrep “^computer$” american-english
+
+# Extrai só as palavras buscadas
+
+cat american-english | grep -iE “^smartphone$|^computer$”
