@@ -1,1 +1,36 @@
+# Informações sobre as interfaces de rede
+
+ip addr
+
+# Mostra o ip da máquina
+
+hostname -I
+
+# Mostra a tabela de rotas
+
+ip route
+
+# Diretório de configuração do DNS no Ubuntu
+
+cat/etc/resolv.conf
+
+# Informaç~es detalhadas sobre o hardware da máquina
+
+sudo lshw | more
+
+# Visualizar a memória do sistema
+
+free
+
+# Obter informações de CPU
+
+cat cpuinfo | more
+
+# Lista para nós N processadores, N núcleos se fosse o caso
+
+cat cpuinfo | grep processor
+
+# Ele mostra só 1º linha de informações do CPU
+
+cat cpuinfo | grep processor | wc -l
 
