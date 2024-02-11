@@ -34,3 +34,16 @@ cat cpuinfo | grep processor
 
 cat cpuinfo | grep processor | wc -l
 
+# As informações dos dispositivos, ficam em
+
+cd /dev
+
+# Lista os discos das máquina
+
+ls -l | grep sda
+
+# Lista as partições do disco
+
+df -h
+
+
