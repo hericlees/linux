@@ -61,3 +61,15 @@ more syslog
 # Filtra a informação sobre o cron através do grep
 
 cat syslog |  -i grep cron
+
+#  o auth.log mostra todas as autenticações que foram feitas mo sistema
+
+cat auth.log
+
+# Filtra pelo ssh
+
+cat syslog | grep -i ssh
+
+# Vai manter o arquivo aberto e cada nova entrada do arquivo, ele vai colocar em tempo real
+
+tail -f auth.log
