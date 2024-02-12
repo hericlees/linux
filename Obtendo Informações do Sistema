@@ -46,4 +46,18 @@ ls -l | grep sda
 
 df -h
 
+# Informações do Sistema. Através do cd/var/log
 
+dmesg
+
+# Filtra a informação do sda através do grep
+
+dmesg | grep sda
+
+#  O syslog é as informações que o sistema está no ar
+
+more syslog
+
+# Filtra a informação sobre o cron através do grep
+
+cat syslog |  -i grep cron
