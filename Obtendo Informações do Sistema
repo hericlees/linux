@@ -73,3 +73,38 @@ cat syslog | grep -i ssh
 # Vai manter o arquivo aberto e cada nova entrada do arquivo, ele vai colocar em tempo real
 
 tail -f auth.log
+
+# Exibir informações sobre os processos em execução no sistema. O nome "ps" vem de "process status"
+
+ps -e
+
+# Exibe informações detalhadas sobre todos os processos em um formato de lista
+
+ps -ef
+
+# Lista todos os processos em execução no sistema Linux, juntamente com detalhes sobre cada processo
+
+ps aux
+
+# Encontrar o ID do processo associado a um programa especifico
+
+ps aux | grep -i ssh
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Exibe informações em tempo real sobre os processos em execução
+
+top
+
+Alternar entre as visualizações:
+
+M: Alternar para a exibição de processos ordenados por uso de memória.
+P: Alternar para a exibição de processos ordenados por uso de CPU.
+N: Alternar para a exibição de processos ordenados por PID.
+T: Alternar para a exibição de processos ordenados por tempo de execução.
+k: Encerrar um processo. Você será solicitado a inserir o PID do processo que deseja encerrar.
+r: Atualizar a exibição manualmente.
+h ou ?: Exibir a tela de ajuda com uma lista de comandos e teclas de atalho.
+q: Sair do top.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
