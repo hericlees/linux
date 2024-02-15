@@ -108,3 +108,15 @@ q: Sair do top.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# O uso típico do comando kill é para encerrar processos que estão em execução e que podem estar consumindo recursos desnecessários ou causando problemas no sistema
+
+O kill pode enviar diferentes sinais para os processos. Alguns dos sinais mais comuns incluem:
+
+SIGTERM (15): Este é o sinal padrão enviado pelo kill. Ele solicita que o processo se encerre normalmente. O processo tem a oportunidade de realizar operações de limpeza
+antes de finalizar.
+SIGKILL (9): Este sinal força a finalização imediata do processo. O processo não tem a oportunidade de realizar operações de limpeza e é terminado abruptamente.
+
+kill -15 6229
+kill -9 6219
+
+
