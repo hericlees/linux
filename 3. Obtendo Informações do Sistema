@@ -116,7 +116,39 @@ SIGTERM (15): Este é o sinal padrão enviado pelo kill. Ele solicita que o proc
 antes de finalizar.
 SIGKILL (9): Este sinal força a finalização imediata do processo. O processo não tem a oportunidade de realizar operações de limpeza e é terminado abruptamente.
 
+kill 6229
 kill -15 6229
 kill -9 6219
 
+# O diretório sudoers permiti conceder privilégios elevados a usuários específicos, sem a necessidade de fornecer as credenciais do superusuário/root
 
+sudo cat /etc/sudoers
+
+# Para modificar
+
+sudo nano /etc/sudoers
+
+# Mostra qual grupo o seu usuário pertence
+
+groups
+
+#  Mostra quais usuários têm permissão para acessar determinados arquivos, diretórios e outros recursos com base nos grupos aos quais pertencem
+
+cat /etc/group
+
+# Para entrar no modo root
+
+sudo su
+
+# Para sair do root
+
+exit
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Executado sem argumentos, ele solicita ao usuário que digite sua senha atual e, em seguida, a nova senha desejada (geralmente requerendo a confirmação da nova senha).
+Após confirmar a nova senha, ela é alterada no sistema.
+
+passwd
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
