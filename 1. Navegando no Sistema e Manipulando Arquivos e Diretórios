@@ -32,6 +32,10 @@ Ctrl+L limpa a tela do terminal; similar ao comando clear
 
 pwd
 
+# Exibe uma representação em formato de árvore dos processos em execução no sistema
+
+pstree
+
 # O "touch" cria um arquivo
 
 touch
