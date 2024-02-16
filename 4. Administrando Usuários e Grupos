@@ -8,7 +8,25 @@ simplicidade e a interatividade são preferidas
 
 sudo adduser hericles
 
+# Exclui o usuário 
+
+sudo userdel hericles
+
 # Este arquivo armazena informações sobre o hash das senhas dos usuários no sistema
 
 sudo cat /etc/shadow
+
+# Cria um grupo
+
+sudo groupadd projetos
+
+# Adiciona o usuário ao grupo
+
+sudo usermod -aG projetos hericles
+
+# Deleta o grupo
+
+sudo groupdel projetos
+
+
 
