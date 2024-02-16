@@ -1,0 +1,14 @@
+# Oferece mais controle direto ao adicionar novos usuários e requer que o administrador especifique manualmente todas as configurações necessárias, como diretório inicial, grupo primário, etc. Ideal para criação de scripts 
+onde se deseja criar uma quantidade de usuários
+
+sudo useradd hericles
+
+# O adduser além de criar o usuário, ele também configura automaticamente o ambiente do usuário, como o diretório home e algumas configurações padrão, como shell, senha, etc. Ideal  para situações em que a 
+simplicidade e a interatividade são preferidas
+
+sudo adduser hericles
+
+# Este arquivo armazena informações sobre o hash das senhas dos usuários no sistema
+
+sudo cat /etc/shadow
+
