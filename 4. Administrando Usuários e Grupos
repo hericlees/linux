@@ -84,7 +84,7 @@ Ex: chmod 755 projetos
 
 Concede permissão de leitura, escrita e execução ao proprietário e permissão de leitura e execução ao grupo e outros.
 
-# O comando chown no Linux é abreviação de "change owner" e é utilizado para alterar o proprietário e/ou grupo de arquivos e diretórios no sistema operacional Linux
+# O comando chown no Linux é abreviação de "change owner" e é utilizado para alterar o proprietário do grupo de arquivos e/ou diretórios no sistema operacional Linux
 
 sudo chown hericles:projetos /projetos
 
