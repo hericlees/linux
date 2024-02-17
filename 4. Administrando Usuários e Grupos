@@ -74,6 +74,7 @@ O número total é obtido somando os valores para cada tipo de permissão conced
 Permissão de leitura (4)
 Permissão de escrita (2)
 Permissão de execução (1)
+Permissão nenhuma    (0)
 
 Então, se quisermos conceder permissões de leitura e escrita a um arquivo, somamos 4 (leitura) e 2 (escrita), resultando em 6.
 
