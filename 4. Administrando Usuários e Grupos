@@ -54,6 +54,15 @@ o grupo tem permissão de leitura e execução, e outros têm permissão apenas 
 1. - : Arquivo
 2. d : Diretório
 
+Arquivos:
+
+Quando o atributo "x" é atribuído a um arquivo, isso indica que o arquivo é um programa executável ou um script que pode ser executado diretamente pelo sistema operacional.
+
+Diretórios:
+
+Quando o atributo "x" é atribuído a um diretório, isso indica permissão para acessar e pesquisar o diretório
+
+
 Cada tipo de permissão (leitura, escrita e execução) é representado por um número binário de três dígitos, onde:
 
 4 representa permissão de leitura.
