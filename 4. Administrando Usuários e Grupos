@@ -80,8 +80,8 @@ Então, se quisermos conceder permissões de leitura e escrita a um arquivo, som
 
 Da mesma forma, se quisermos conceder permissões de leitura, escrita e execução, somamos 4 (leitura), 2 (escrita) e 1 (execução), resultando em 7.
           ugo
-Ex: chmod 755 arquivo.txt
+Ex: chmod 755 projetos
 
-concede permissão de leitura, escrita e execução ao proprietário e permissão de leitura e execução ao grupo e outros.
+Concede permissão de leitura, escrita e execução ao proprietário e permissão de leitura e execução ao grupo e outros.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
