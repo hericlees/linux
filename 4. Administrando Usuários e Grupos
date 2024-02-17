@@ -28,5 +28,50 @@ sudo usermod -aG projetos hericles
 
 sudo groupdel projetos
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# No Linux, o esquema de permissionamento refere-se ao sistema de permissões de arquivos e diretórios, que controla quem pode acessar, modificar e executar 
+esses recursos no sistema operacional.
 
+Existem três tipos básicos de permissões em arquivos e diretórios no Linux:
 
+1.Leitura (Read - "r"): Permite que o arquivo ou diretório seja visualizado ou lido.
+2.Escrita (Write - "w"): Permite modificar ou escrever no arquivo ou diretório.
+3.Execução (Execute - "x"): Permite que o arquivo seja executado como um programa ou que um diretório seja acessado.
+
+Essas permissões são aplicadas a três tipos de usuários:
+
+Proprietário (User): O usuário que criou o arquivo ou diretório.
+Grupo (Group): Um conjunto de usuários que compartilham permissões específicas.
+Outros (Others): Todos os outros usuários no sistema que não são o proprietário nem pertencem ao grupo.
+
+O sistema de permissões é representado por uma sequência de nove caracteres, geralmente exibidos em listagens de arquivos no terminal ou em interfaces gráficas. 
+Esses caracteres representam, na ordem, as permissões para o proprietário, o grupo e outros
+
+                                                                    u  g   o     
+Por exemplo, uma permissão de arquivo pode ser representada como "-rwxr-xr--". Isso significa que o proprietário tem permissão de leitura, escrita e execução, 
+o grupo tem permissão de leitura e execução, e outros têm permissão apenas de leitura.
+
+1. - : Arquivo
+2. d : Diretório
+
+Cada tipo de permissão (leitura, escrita e execução) é representado por um número binário de três dígitos, onde:
+
+4 representa permissão de leitura.
+2 representa permissão de escrita.
+1 representa permissão de execução.
+
+O número total é obtido somando os valores para cada tipo de permissão concedida. Por exemplo:
+
+Permissão de leitura (4)
+Permissão de escrita (2)
+Permissão de execução (1)
+
+Então, se quisermos conceder permissões de leitura e escrita a um arquivo, somamos 4 (leitura) e 2 (escrita), resultando em 6.
+
+Da mesma forma, se quisermos conceder permissões de leitura, escrita e execução, somamos 4 (leitura), 2 (escrita) e 1 (execução), resultando em 7.
+          ugo
+Ex: chmod 755 arquivo.txt
+
+concede permissão de leitura, escrita e execução ao proprietário e permissão de leitura e execução ao grupo e outros.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
