@@ -189,3 +189,12 @@ ls arq [1,5]
 # Listar todos os arquivos que começam com ‘arq’ ou 'Arq' que vão de 1 a 5
 
 ls [A,a]arq[1-5]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Um link simbólico, aponta para outro arquivo ou diretório em um sistema de arquivos do Linux. Em outras palavras, é um atalho para outro arquivo ou diretório. 
+Quando você acessa um link simbólico, o sistema operacional segue o caminho fornecido pelo link para acessar o arquivo ou diretório real
+
+ln -s /projetos projetos
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
