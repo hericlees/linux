@@ -197,4 +197,6 @@ Quando você acessa um link simbólico, o sistema operacional segue o caminho fo
 
 ln -s /projetos projetos
 
+Depois é só digitar: cd projetos que automaticamente irá para o diretório projetos.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
