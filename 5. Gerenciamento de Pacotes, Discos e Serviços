@@ -1,1 +1,6 @@
+# É uma boa prática executar sudo apt update antes de instalar novos pacotes ou atualizar os pacotes existentes para garantir que você esteja instalando as versões mais 
+recentes disponíveis dos pacotes.
 
+sudo apt update
+
+#
