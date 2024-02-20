@@ -27,4 +27,14 @@ apt list --upgradable
 
 sudo apt upgrade
 
-# 
+# é usado para especificar que o comando deve listar apenas informações sobre dispositivos de armazenamento, como discos rígidos, SSDs e dispositivos de armazenamento em massa
+
+sudo lshw -c disk / sudo fdisk -l
+
+# Para particionar o disco
+
+sudo fdisk /dev/nome do disco a ser particionado (sd?)
+
+
+
+
