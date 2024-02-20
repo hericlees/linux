@@ -11,4 +11,20 @@ sudo apt install / sudo apt-get install
 
 apt search nome do pacote
 
+# É usado para remover pacotes já instalados
+
+sudo apt remove nome do pacote
+
+# Remove automaticamente os pacotes que foram instalados como dependências e que não são mais necessários no sistema
+
+sudo apt autoremove
+
+# É usado para listar os pacotes que têm versões disponíveis mais recentes para atualização
+
+apt list --upgradable
+
+# É usado para atualizar os pacotes instalados em seu sistema para suas versões mais recentes disponíveis
+
+sudo apt upgrade
+
 # 
