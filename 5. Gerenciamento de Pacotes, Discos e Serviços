@@ -3,4 +3,12 @@ recentes disponíveis dos pacotes.
 
 sudo apt update
 
-#
+# São utilitários de linha de comando usados no Ubuntu e em sistemas Linux baseados no Debian para gerenciar pacotes de software
+
+sudo apt install / sudo apt-get install
+
+# É usado para pesquisar por pacotes disponíveis nos repositórios configurados no sistema
+
+apt search nome do pacote
+
+# 
