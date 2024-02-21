@@ -63,6 +63,17 @@ cat /etc/fstab
 
 /dev/sdx1 /media/disk2 ext4 defaults 0 2         (sdx) x=nome do disco
 
+# Verificando se o sistema está montando automaticamente o disco ao inicializar
+
+sudo umount /media/disk2  ---> desmonta para fazer o teste
+
+# Esse comando é útil quando você adiciona novas partições ao sistema ou faz alterações no arquivo /etc/fstab e deseja aplicar essas alterações sem reiniciar o sistema. Testar
+Para ver se o sistema está montando corretamente o disco
+
+sudo mount -a
+
+
+
 
 
 
