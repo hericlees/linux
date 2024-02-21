@@ -59,6 +59,10 @@ mount | grep sd
 
 cat /etc/fstab
 
+# Adicionando ao fstab
+
+/dev/sdx1 /media/disk2 ext4 defaults 0 2         (sdx) x=nome do disco
+
 
 
 
