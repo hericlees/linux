@@ -43,7 +43,15 @@ sudo mkfs -t ext4 /dev/sdb1
 
 mount
 
-# 
+# Para manter uma organização no sistema, existe um diretório “/media”, no caso do Ubuntu, e os discos são montados nele
+
+cd /media/       sudo mkdir disk2
+
+# Para fazer a montagem
+
+sudo mount /dev/sdb1 /media/disk2/
+
+
 
 
 
