@@ -33,7 +33,17 @@ sudo lshw -c disk / sudo fdisk -l
 
 # Para particionar o disco
 
-sudo fdisk /dev/nome do disco a ser particionado (sd?)
+sudo fdisk /dev/sdx (sdx) x=nome do disco
+
+#  Para criar um sistema de arquivos do tipo ext4 em uma partição 
+
+sudo mkfs -t ext4 /dev/sdb1
+
+# Mostra os dispositivos montados
+
+mount
+
+# 
 
 
 
