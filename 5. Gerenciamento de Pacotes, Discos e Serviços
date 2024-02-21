@@ -51,7 +51,13 @@ cd /media/       sudo mkdir disk2
 
 sudo mount /dev/sdb1 /media/disk2/
 
+# Para localizar o disco montado
 
+mount | grep sd
+
+# Montando o disco de forma automática
+
+cat /etc/fstab
 
 
 
