@@ -72,8 +72,50 @@ Para ver se o sistema está montando corretamente o disco
 
 sudo mount -a
 
+---------------------------------------------------------------------------------------------------------
+# Gerenciamento de Serviços
+
+Comandos do systemctl:
 
 
 
+# Start: Inicia um serviço específico.
+
+systemctl start nome_do_serviço
+
+
+
+# Stop: Para um serviço específico.
+
+systemctl stop nome_do_serviço
+
+
+
+# Restart: Reinicia um serviço específico.
+
+systemctl restart nome_do_serviço
+
+
+
+# Reload: Recarrega a configuração de um serviço específico sem interrompê-lo.
+
+systemctl reload nome_do_serviço
+
+
+
+# Status: Exibe o status de um serviço específico.
+
+systemctl status nome_do_serviço
+
+
+
+# Enable: Habilita um serviço para ser iniciado automaticamente na inicialização do sistema.
+
+systemctl enable nome_do_serviço
+
+
+# Disable: Desabilita um serviço para que não seja iniciado automaticamente na inicialização do sistema.
+
+systemctl disable nome_do_serviço
 
 
