@@ -15,6 +15,10 @@ cp listagem lista-bzip2
 
 cp listagem lista-xz
 
+cp lista-gzip lista-gzip1
+
+cp lista-gzip lista-gzip9
+
 
 # Fazendo a compressão
 
@@ -39,3 +43,15 @@ gunzip lista-gzip.gz
 bunzip2 lista.bzip2.bz2
 
 unxz lista-xz.xz
+
+
+# Variar os níveis de compressão [1 a 9( quanto maior o número maior a compressão)] ----> essa mesma regra (1-9 ex: xz -5 lista-xz) vale para outras extensões de compressão
+
+gzip -1 lista-gzip1
+
+gzip -9 lista-gzip9
+
+
+# Para ver o quanto foi comprimido na tela, só usar o verboso
+
+gzip -9v lista-gzip9
