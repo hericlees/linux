@@ -32,3 +32,10 @@ ls -lhS ---> ordem crescente
 ls -lhSr ---> ordem decrescente
 
 
+# Fazendo a descompressão
+
+gunzip lista-gzip.gz
+
+bunzip2 lista.bzip2.bz2
+
+unxz lista-xz.xz
