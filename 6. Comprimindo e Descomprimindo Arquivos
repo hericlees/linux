@@ -55,3 +55,18 @@ gzip -9 lista-gzip9
 # Para ver o quanto foi comprimido na tela, só usar o verboso
 
 gzip -9v lista-gzip9
+
+
+# Para ver o que há dentro, sem descompactar
+
+Para arquivos .gz: zcat arquivo.gz ou zless arquivo.gz
+
+Para arquivos .bz2: bzcat arquivo.bz2 ou bzless arquivo.bgz2
+
+Para arquivos .xz: xzcat arquivo.xz ou xzless arquivo.xz
+
+Para arquivos .tar: tar -tf arquivo.tar
+
+
+
+
