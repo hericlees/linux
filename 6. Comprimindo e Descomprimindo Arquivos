@@ -57,7 +57,7 @@ gzip -9 lista-gzip9
 gzip -9v lista-gzip9
 
 
-# Para ver o que há dentro, sem descompactar
+# Para ver o que há dentro, sem descomprimir ou descompactar
 
 Para arquivos .gz: zcat arquivo.gz ou zless arquivo.gz
 
@@ -66,6 +66,21 @@ Para arquivos .bz2: bzcat arquivo.bz2 ou bzless arquivo.bgz2
 Para arquivos .xz: xzcat arquivo.xz ou xzless arquivo.xz
 
 Para arquivos .tar: tar -tf arquivo.tar
+
+
+#  Cria um arquivo chamado "pacote.tar" que contém todos os arquivos e subdiretórios encontrados no diretório "../compressao" e salva-o no diretório atual
+
+tar -cf pacote.tar ../compressao
+
+
+# Para descompactar 
+
+tar -xf pacote.tar
+
+
+# Extrair somente um arquivo específico de uma lista
+
+tar -xf pacote.tar compressao/listagem
 
 
 
