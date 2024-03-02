@@ -123,5 +123,19 @@ zip nome_do_arquivo.zip arquivo1 arquivo2 diretório1
 Este comando criará um arquivo chamado nome_do_arquivo.zip contendo arquivo1, arquivo2 e diretório1
 
 
+# Descompactação através do ZIP
+
+unzip arquivo.zip
+
+# Este comando descompactará o arquivo arquivo.zip no diretório atual
+
+unzip arquivo.zip -d /caminho/do/diretorio
+
+# Este comando descompactará o arquivo arquivo.zip  em um diretório específico, usar a opção -d seguida do caminho do diretório de destino
+
+unzip -l arquivo.zip
+
+# Apenas lista o conteúdo do arquivo ZIP sem realmente descompactá-lo, só usar a opção -l
+
 
 
