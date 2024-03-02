@@ -83,5 +83,45 @@ tar -xf pacote.tar
 tar -xf pacote.tar compressao/listagem
 
 
+# Unindo Compressão e Empacotamento
+
+1. Compressão gzip (.tar.gz):
+
+tar -czf arquivo.tar.gz arquivo1 arquivo2 diretório1
+
+# Este comando irá criar um arquivo chamado arquivo.tar.gz, contendo arquivo1, arquivo2 e diretório1, usando compressão gzip.
+
+2. Compressão bzip2 (.tar.bz2):
+
+tar -cjf arquivo.tar.bz2 arquivo1 arquivo2 diretório1
+
+# Este comando irá criar um arquivo chamado arquivo.tar.bz2, contendo arquivo1, arquivo2 e diretório1, usando compressão bzip2.
+
+3. Compressão xz (.tar.xz):
+
+tar -cJf arquivo.tar.xz arquivo1 arquivo2 diretório1
+
+# Este comando irá criar um arquivo chamado arquivo.tar.xz, contendo arquivo1, arquivo2 e diretório1, usando compressão xz.
+
+OBS.: Adicionando a opção -v, você verá a lista de arquivos sendo incluídos no arquivo de saída durante o processo de compressão. Isso pode ser útil para monitorar 
+o progresso e garantir que todos os arquivos que você deseja estejam sendo incluídos.
+
+Ex.: tar -czvf arquivo.tar.gz arquivo1 arquivo2 diretório1
+
+
+# Compactação através do ZIP
+
+zip -rv arquivo.zip diretório/
+
+Este comando compactará o diretório chamado diretório e todos os seus arquivos e subdiretórios recursivamente em um arquivo chamado arquivo.zip.
+
+Além disso, a opção -v exibe informações detalhadas durante o processo de compactação.
+
+
+zip nome_do_arquivo.zip arquivo1 arquivo2 diretório1
+
+Este comando criará um arquivo chamado nome_do_arquivo.zip contendo arquivo1, arquivo2 e diretório1
+
+
 
 
